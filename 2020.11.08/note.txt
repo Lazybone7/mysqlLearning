@@ -1,0 +1,31 @@
+DB    数据库 
+DBMS  数据库管理系统
+SQL   结构化查询语言
+
+
+DBMS的分类：
+  1.基于共享文件系统的DBMS：ACCESS
+  2.基于C/S架构的DBMS： mysql oracle sqlserver
+  
+常用命令：
+  show databases : 查看所有数据库
+  use  库名      ：打开指定的库
+  show tables    ：查看当前库的所有表
+  show tables from 库名：查看指定库的所有表
+  create table 表名(
+                      列名 列类型,
+                      列名 列类型,
+                      列名 列类型);    : 创建一个表
+  desc 表名：查看表的结构
+  select version() : 数据库中查询数据库版本
+  mysql --version
+  mysql -V           ：命令行下查询数据库版本
+  
+SQL语法规范：
+  1.不区分大小写，但建议关键字大写，表名、列名小写
+  2.每条命令用;结尾
+  3.每条命令根据需要，可以进行缩进和换行
+  4.注释：
+      单行：#注释内容
+      多行注释： /*注释内容*/
+      
